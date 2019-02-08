@@ -1,4 +1,4 @@
-# lolcow-def
+# lolcow singularity definition file
 lolcow singularity definition file
 
 Built image can be found at https://cloud.sylabs.io/library/sylabsed/actions 
