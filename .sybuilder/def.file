@@ -8,6 +8,8 @@ From: ubuntu:16.04
 %environment
     export LC_ALL=C
     export PATH=/usr/games:$PATH
+%help
+    singularity run library://sylabsed/actions/lolcow:latest
 
 %runscript
     fortune | cowsay | lolcat
