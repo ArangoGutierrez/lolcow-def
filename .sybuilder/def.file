@@ -3,7 +3,7 @@ From: ubuntu:16.04
 
 %labels
     Author eduardo@sylabs.io
-    Version v0.0.2
+    Version v0.0.3
     
 %post
     apt-get -y update
