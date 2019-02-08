@@ -6,4 +6,9 @@ workflow "Sybuilder" {
 action "SyBuilder-Action" {
   uses = "ArangoGutierrez/SyBuilder-Action@master"
   secrets = ["GITHUB_TOKEN", "SYLABS_TOKEN"]
+  env = {
+    SYLABS_USER = "sylabsed"
+    SYLABS_PROJECT = "actions"
+    LIBRARY_IMAGE = "lolcow"
+  }
 }
