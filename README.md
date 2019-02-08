@@ -1,5 +1,5 @@
-# lolcow singularity definition file
-lolcow singularity definition file
+# Lolcow singularity definition file
+lolcow singularity definition file, autobuild via github action
 
 Built image can be found at https://cloud.sylabs.io/library/sylabsed/actions 
 
