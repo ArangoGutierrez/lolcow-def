@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v1
+    - name: Sy-Builder
+      uses: ArangoGutierrez/SyBuilder-Action@v1.0.0
+        env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        SYLABS_TOKEN: ${{ secrets.SYLABS_TOKEN }}
+        SYLABS_USER: sylabsed
+        SYLABS_PROJECT: actions
+        LIBRARY_IMAGE: lolcow
+
